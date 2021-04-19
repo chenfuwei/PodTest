@@ -9,19 +9,22 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PodTest"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Pod Create Use"
 
 
   spec.description  = <<-DESC
-                   简单测试
+                   简单测试 CocoaPods use, Success
                    DESC
 
-  spec.homepage     = "https://github.com/chenfuwei/PodTest.git"
+  spec.homepage     = "https://github.com/chenfuwei/PodTest"
 
 
 
-  spec.license      = "MIT"
+  spec.license      = {:type => "MIT" :text=> <<-LICENSE
+    Copyright PPAbner 2016-2021
+    LICENSE
+  }
 
 
   spec.author             = { "net263" => "mobile-gensee@net263.com" }
