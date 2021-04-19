@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
                    简单测试 CocoaPods use, Success
                    DESC
 
-  spec.homepage     = "https://github.com/chenfuwei/PodTest"
+  spec.homepage     = "http://www.gensee.com/"
 
 
 
