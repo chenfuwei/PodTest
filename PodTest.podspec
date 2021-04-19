@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.license      = {:type => "MIT" :text=> <<-LICENSE
+  spec.license      = {:type => "MIT",:text=> <<-LICENSE
     Copyright PPAbner 2016-2021
     LICENSE
   }
