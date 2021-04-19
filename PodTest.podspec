@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PodTest"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "Pod Create Use"
 
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
                    简单测试 CocoaPods use, Success
                    DESC
 
-  spec.homepage     = "http://www.gensee.com/"
+  spec.homepage     = "http://www.gensee.com"
 
 
 
