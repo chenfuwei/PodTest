@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GSPodTest"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "Pod Create Use"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "PodTest/**/*"
+  spec.source_files  = "PodTest/*.{h,m}", "PodTest/pod1/*.{h,m}", "PodTest/pod2/*.{h,m}"
 
   spec.public_header_files = "PodTest/*.h"
 
